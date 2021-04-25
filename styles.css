@@ -1,0 +1,172 @@
+.gray_background
+{
+    background-color:gray;
+    margin:0;
+    padding:0;
+}
+
+.pad20
+{
+    padding:20px;
+}
+
+.top_marg20
+{
+    margin-top:20px;
+}
+
+.width_100
+{
+    width:100%;
+}
+
+#container
+{
+    width:1200px;
+    height:100vh;
+    background-color:rgb(12, 130, 136);
+    border-left:5px solid black;
+    border-right:5px solid black;
+}
+
+#div_form
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width:50%;
+    height:50%;
+
+    display:grid;
+    place-items:center;
+
+    background-color:blanchedalmond;
+    border:10px double rgb(255, 1, 1);
+    border-radius:20px;
+    text-align:center;
+}
+
+.header
+{
+    position:relative;
+    top:4%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width:1200px;
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+
+    border-left:5px solid black;
+    border-right:5px solid black;
+    margin-bottom:100px;
+    text-align:center;
+}
+
+label
+{
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    font-size:30px;
+    width:100%;
+    border-bottom:2px solid red;
+    text-decoration:transparent;
+}
+
+.btn-primary
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    margin-top:20px;
+    font-size:30px;
+    border-radius: 5px;
+    width:100%;
+    text-align:center;
+    border:2px solid black;
+}
+
+.greenbck
+{
+    background-color: teal;
+    height:100vh;
+}
+
+#lista
+{
+    position:absolute;
+    width:80%;
+    height:80%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:white;
+    display:grid;
+    place-items:center;
+}
+
+#div_reg
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    width:60%;
+    height:60%;
+
+    background-color:blanchedalmond;
+
+    display:grid;
+    place-items:center;
+
+    border:2px double red;
+    border-radius:25px;
+
+}
+
+#form_reg
+{
+    background-color:burlywood;
+    width:75%;
+
+    border:2px solid black;
+    border-radius:25px;
+    
+    display:grid;
+    place-items:center;
+}
+
+#form_reg button
+{
+    width:50%;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+table th
+{
+    padding-left:10px;
+    background-color:chartreuse;
+    border:2px solid black;
+    text-decoration:underline;
+    text-shadow:5px 1px 10px white;
+}
+
+table tr
+{
+    background-color:cornsilk;
+}
+
+td
+{
+    text-align:center;
+    border:1px solid black;
+}
